@@ -2,6 +2,7 @@
 body {
   background-color: #000000; /* Black background for the entire page */
   margin: 0; /* Remove default margin */
+  overflow-x: hidden;
 }
 
 /* Outer container with border */

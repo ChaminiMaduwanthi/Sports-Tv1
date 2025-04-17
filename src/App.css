@@ -1,0 +1,50 @@
+/* Ensure the entire page background is black */
+body {
+  background-color: #000000; /* Black background for the entire page */
+  margin: 0; /* Remove default margin */
+}
+
+/* Outer container with border */
+.outer-container {
+  border: 1px solid #4b5563; /* Gray border, same as app-container */
+  border-radius: 14px; /* Slightly larger radius to account for outer border */
+  background-color: #000000; /* Black background */
+  margin: 10px; /* 10px gap from screen edges */
+  padding: 10px; /* 10px gap between outer border and app-container */
+  width: calc(100% - 20px); /* Full width minus margins */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Inner container with border */
+.app-container {
+  border: 1px solid #4b5563; /* Gray border */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #000000; /* Black background */
+  width: 100%; /* Full width within outer container */
+  box-sizing: border-box; /* Include padding and border in width */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) { /* Tablet */
+  .outer-container {
+      width: calc(90% - 20px); /* Slightly less than full width, minus margins */
+      max-width: 810px; /* Increased from 800px to account for 10px padding */
+      margin: 10px auto; /* Center with 10px margin on top/bottom */
+  }
+
+  .app-container {
+      width: 100%; /* Full width within outer container */
+      max-width: 800px; /* Same as before */
+  }
+}
+
+@media (min-width: 1024px) { /* Desktop */
+  .outer-container {
+      max-width: 1010px; /* Increased from 1000px to account for 10px padding */
+  }
+
+  .app-container {
+      max-width: 1000px; /* Same as before */
+  }
+}

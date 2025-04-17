@@ -1,0 +1,122 @@
+.live-container {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -2px;
+  }
+  
+  .main-content {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .video-embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 40%; 
+    height: 0;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .video-player {
+    flex: 3;
+    background: #000;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff6200;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .chat-section {
+    flex: 1;
+    background: #2a2a2a;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .chat-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6200;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    background: #333;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 120px; 
+  }
+  
+  .chat-input {
+    background: #444;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    width: 92%;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+  }
+  
+  .related-matches {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .related-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff6200;
+  }
+  
+  .matches-grid {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .match-item {
+    flex: 1;
+    background: #2a2a2a;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .match-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  

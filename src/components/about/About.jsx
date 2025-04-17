@@ -63,6 +63,9 @@ const About = () => {
             Provides independent grading and entertainment strategy.
             Lorem ipsum bellor sit amit,
             consectetur adipiscing elit. Sellentespot dolor.
+            Possibly unbiased evaluation or scoring.
+            Likely refers to a plan or approach for engaging audiences 
+            through entertainment.
           </p>
         </div>
       </div>

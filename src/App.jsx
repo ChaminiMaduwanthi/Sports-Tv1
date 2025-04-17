@@ -31,8 +31,6 @@ function Layout() {
         <Route path="/" element={<Stream />} />
         <Route path="/about" element={<About />} />
         <Route path="/live" element={<Live1/>} />
-        <Route path="/schedule" element={<Schedule />} />
-        <Route path="/ondemand" element={<Ondemand />} />
         <Route path="/signin" element={<Signin />} />
       </Routes>
       
